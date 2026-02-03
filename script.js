@@ -1,8 +1,7 @@
 // ===== QR Code Generation & Modal Management =====
 
-// Configuration - URL permanente du CV Web
-const CV_URL = 'https://github.com/ghita-k/CVWEB_Ghita_ELKADIRI/';
-
+// Configuration - Web Resume permanent URL
+const CV_URL = 'https://ghita-k.github.io/CV-WEB_-Ghita-EL-KADIRI/';
 let qrCodeGenerated = false;
 
 // Initialize QR Code
@@ -234,4 +233,3 @@ if (localStorage.getItem('darkMode') === 'true') {
 
 console.log('CV Web - Ghita EL KADIRI - Loaded successfully!');
 console.log('QR Code will be generated when modal opens.');
-
